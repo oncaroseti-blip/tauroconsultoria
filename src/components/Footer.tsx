@@ -72,7 +72,7 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/company/tauroconsultoria" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
                   <Linkedin size={20} />
                 </a>
-                <a href="https://www.instagram.com/tauroconsultoria?igsh=MXY3dTVrYnJya3JqbA==" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
+                <a href="https://www.instagram.com/tauroconsultoria?igsh=ZmUxN2J0aDBieXdy" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
                   <Instagram size={20} />
                 </a>
               </div>

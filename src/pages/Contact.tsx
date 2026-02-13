@@ -54,7 +54,7 @@ const Contact = () => {
                 <Phone size={18} className="text-gold" /> (11) 98155-9196
               </a>
               <a href="https://wa.me/qr/DO744A2JQRO7H1" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-gold transition-colors">
-                <MessageCircle size={18} className="text-gold" /> WhatsApp
+                <MessageCircle size={18} className="text-gold" /> Fale conosco no WhatsApp
               </a>
               <div className="pt-4">
                 <p className="text-sm font-semibold text-primary mb-3">Siga-nos</p>
@@ -62,7 +62,7 @@ const Contact = () => {
                   <a href="https://www.linkedin.com/company/tauroconsultoria" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-gold transition-colors">
                     <Linkedin size={22} />
                   </a>
-                  <a href="https://www.instagram.com/tauroconsultoria?igsh=MXY3dTVrYnJya3JqbA==" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-gold transition-colors">
+                  <a href="https://www.instagram.com/tauroconsultoria?igsh=ZmUxN2J0aDBieXdy" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-gold transition-colors">
                     <Instagram size={22} />
                   </a>
                 </div>
