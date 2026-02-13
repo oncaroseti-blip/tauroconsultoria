@@ -1,5 +1,5 @@
 const posts = [
-  { title: "Os 5 Sinais de que seu Estoque está Sabotando seu Lucro", snippet: "Descubra os indicadores silenciosos que drenam a rentabilidade do seu negócio e como corrigi-los com ações práticas.", date: "10 Jan 2026" },
+  { title: "Os 5 Sinais de que seu Estoque está Sabotando seu Lucro", snippet: "Descubra os indicadores silenciosos que drenam a rentabilidade do seu negócio e como corrigi-los com ações práticas.", date: "13 Fev 2026" },
   { title: "Fractional Executive: Como Ter um Gestor Sênior por uma Fração do Custo", snippet: "Entenda o modelo de advisory residente e por que ele é a solução ideal para PMEs que precisam de liderança experiente.", date: "03 Jan 2026" },
   { title: "Kaizen vs. Six Sigma: Qual o Melhor para o seu Problema?", snippet: "Comparamos as duas metodologias mais populares de melhoria contínua e ajudamos você a escolher a ideal.", date: "27 Dez 2025" },
   { title: "O ROI Escondido na Otimização de Processos", snippet: "Muito além da redução de custos: descubra os retornos intangíveis que a otimização de processos traz ao seu negócio.", date: "20 Dez 2025" },
