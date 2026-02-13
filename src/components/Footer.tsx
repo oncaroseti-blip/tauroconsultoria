@@ -62,17 +62,17 @@ const Footer = () => {
               <a href="mailto:contato@tauroconsultoria.com.br" className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-gold transition-colors">
                 <Mail size={16} /> contato@tauroconsultoria.com.br
               </a>
-              <a href="tel:+5511949684522" className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-gold transition-colors">(11) 98155-9196
-                <Phone size={16} /> (11) 94968-4522
+              <a href="tel:+5511981559196" className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-gold transition-colors">
+                <Phone size={16} /> (11) 98155-9196
               </a>
               <div className="flex items-center gap-4 pt-2">
-                <a href="https://wa.me/5511949684522" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
+                <a href="https://wa.me/qr/DO744A2JQRO7H1" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
                   <MessageCircle size={20} />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
+                <a href="https://www.linkedin.com/company/tauroconsultoria" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
                   <Linkedin size={20} />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
+                <a href="https://www.instagram.com/tauroconsultoria?igsh=MXY3dTVrYnJya3JqbA==" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
                   <Instagram size={20} />
                 </a>
               </div>

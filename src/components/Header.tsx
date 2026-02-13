@@ -3,10 +3,10 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
 
 const solutions = [
-  { name: "Gestão de Estoque", path: "/solucoes/gestao-estoque" },
-  { name: "Advisory Residente", path: "/solucoes/advisory" },
-  { name: "Semana Kaizen", path: "/solucoes/kaizen" },
-  { name: "Projetos de Transformação", path: "/solucoes/transformacao" },
+  { name: "Gestão de Estoque", path: "https://optera-insight.lovable.app" },
+  { name: "Advisory Residente", path: "https://blaze-to-build.lovable.app" },
+  { name: "Semana Kaizen", path: "https://rapid-remedy-lab.lovable.app" },
+  { name: "Projetos de Transformação", path: "https://transform-the-spark.lovable.app" },
 ];
 
 const navLinks = [
@@ -48,13 +48,15 @@ const Header = () => {
                 {dropdownOpen && (
                   <div className="absolute top-full left-0 mt-1 w-64 bg-navy-dark border border-navy-light/20 rounded-md shadow-xl py-2 animate-fade-in-up">
                     {link.dropdown.map((sub) => (
-                      <Link
+                      <a
                         key={sub.path}
-                        to={sub.path}
+                        href={sub.path}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="block px-4 py-2.5 text-sm text-primary-foreground/80 hover:bg-navy-light/20 hover:text-gold transition-colors"
                       >
                         {sub.name}
-                      </Link>
+                      </a>
                     ))}
                   </div>
                 )}
@@ -98,14 +100,16 @@ const Header = () => {
               <div key={link.name}>
                 <p className="px-4 py-2 text-sm font-semibold text-gold">{link.name}</p>
                 {link.dropdown.map((sub) => (
-                  <Link
+                  <a
                     key={sub.path}
-                    to={sub.path}
+                    href={sub.path}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     onClick={() => setMobileOpen(false)}
                     className="block px-8 py-2 text-sm text-primary-foreground/80 hover:text-gold"
                   >
                     {sub.name}
-                  </Link>
+                  </a>
                 ))}
               </div>
             ) : (
