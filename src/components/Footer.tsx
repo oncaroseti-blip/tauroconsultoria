@@ -21,18 +21,18 @@ const Footer = () => {
             <h4 className="font-heading text-sm font-bold mb-4 text-gold">Navegação</h4>
             <ul className="space-y-2">
               {[
-                { name: "Home", path: "/" },
-                { name: "Sobre Nós", path: "/sobre" },
-                { name: "Cases de Sucesso", path: "/cases" },
-                { name: "Blog", path: "/blog" },
-                { name: "Contato", path: "/contato" },
-              ].map((link) => (
-                <li key={link.path}>
+              { name: "Home", path: "/" },
+              { name: "Sobre Nós", path: "/sobre" },
+              { name: "Cases de Sucesso", path: "/cases" },
+              { name: "Blog", path: "/blog" },
+              { name: "Contato", path: "/contato" }].
+              map((link) =>
+              <li key={link.path}>
                   <Link to={link.path} className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">
                     {link.name}
                   </Link>
                 </li>
-              ))}
+              )}
             </ul>
           </div>
 
@@ -41,17 +41,17 @@ const Footer = () => {
             <h4 className="font-heading text-sm font-bold mb-4 text-gold">Soluções</h4>
             <ul className="space-y-2">
               {[
-                { name: "Gestão de Estoque", path: "/solucoes/gestao-estoque" },
-                { name: "Advisory Residente", path: "/solucoes/advisory" },
-                { name: "Semana Kaizen", path: "/solucoes/kaizen" },
-                { name: "Projetos de Transformação", path: "/solucoes/transformacao" },
-              ].map((link) => (
-                <li key={link.path}>
+              { name: "Gestão de Estoque", path: "/solucoes/gestao-estoque" },
+              { name: "Advisory Residente", path: "/solucoes/advisory" },
+              { name: "Semana Kaizen", path: "/solucoes/kaizen" },
+              { name: "Projetos de Transformação", path: "/solucoes/transformacao" }].
+              map((link) =>
+              <li key={link.path}>
                   <Link to={link.path} className="text-sm text-primary-foreground/70 hover:text-gold transition-colors">
                     {link.name}
                   </Link>
                 </li>
-              ))}
+              )}
             </ul>
           </div>
 
@@ -62,7 +62,7 @@ const Footer = () => {
               <a href="mailto:contato@tauroconsultoria.com.br" className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-gold transition-colors">
                 <Mail size={16} /> contato@tauroconsultoria.com.br
               </a>
-              <a href="tel:+5511949684522" className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-gold transition-colors">
+              <a href="tel:+5511949684522" className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-gold transition-colors">(11) 98155-9196
                 <Phone size={16} /> (11) 94968-4522
               </a>
               <div className="flex items-center gap-4 pt-2">
@@ -86,8 +86,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;
