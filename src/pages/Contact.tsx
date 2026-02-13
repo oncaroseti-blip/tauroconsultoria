@@ -53,16 +53,16 @@ const Contact = () => {
               <a href="tel:+5511981559196" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-gold transition-colors">
                 <Phone size={18} className="text-gold" /> (11) 98155-9196
               </a>
-              <a href="https://wa.me/qr/DO744A2JQRO7H1" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-gold transition-colors">
+              <a href="https://wa.me/5511981559196" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-gold transition-colors">
                 <MessageCircle size={18} className="text-gold" /> Fale conosco no WhatsApp
               </a>
               <div className="pt-4">
                 <p className="text-sm font-semibold text-primary mb-3">Siga-nos</p>
                 <div className="flex gap-4">
-                  <a href="https://www.linkedin.com/company/tauroconsultoria" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-gold transition-colors">
+                  <a href="https://www.linkedin.com/company/tauroconsultoria/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-gold transition-colors">
                     <Linkedin size={22} />
                   </a>
-                  <a href="https://www.instagram.com/tauroconsultoria?igsh=ZmUxN2J0aDBieXdy" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-gold transition-colors">
+                  <a href="https://www.instagram.com/tauroconsultoria/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-gold transition-colors">
                     <Instagram size={22} />
                   </a>
                 </div>

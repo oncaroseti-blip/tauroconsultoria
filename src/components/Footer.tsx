@@ -66,13 +66,13 @@ const Footer = () => {
                 <Phone size={16} /> (11) 98155-9196
               </a>
               <div className="flex items-center gap-4 pt-2">
-                <a href="https://wa.me/qr/DO744A2JQRO7H1" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
+                <a href="https://wa.me/5511981559196" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
                   <MessageCircle size={20} />
                 </a>
-                <a href="https://www.linkedin.com/company/tauroconsultoria" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
+                <a href="https://www.linkedin.com/company/tauroconsultoria/" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
                   <Linkedin size={20} />
                 </a>
-                <a href="https://www.instagram.com/tauroconsultoria?igsh=ZmUxN2J0aDBieXdy" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
+                <a href="https://www.instagram.com/tauroconsultoria/" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/70 hover:text-gold transition-colors">
                   <Instagram size={20} />
                 </a>
               </div>
