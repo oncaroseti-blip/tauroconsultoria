@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
+import tauroLogo from "@/assets/tauro-logo.jpeg";
 
 const solutions = [
   { name: "Gestão de Estoque", path: "https://optera-insight.lovable.app" },
@@ -25,6 +26,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-navy-dark/95 backdrop-blur-md border-b border-navy-light/20">
       <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
         <Link to="/" className="flex items-center gap-2">
+          <img src={tauroLogo} alt="Tauro Consultoria" className="h-9 w-9 object-contain" />
           <span className="font-heading text-xl font-bold text-primary-foreground tracking-tight">
             Tauro<span className="text-gold"> Consultoria</span>
           </span>
