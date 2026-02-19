@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, Linkedin, Instagram, MessageCircle } from "lucide-react";
+import tauroLogo from "@/assets/tauro-logo.jpeg";
 
 const Footer = () => {
   return (
@@ -8,9 +9,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <h3 className="font-heading text-xl font-bold mb-4">
-              Tauro<span className="text-gold"> Consultoria</span>
-            </h3>
+            <div className="flex items-center gap-2 mb-4">
+              <img src={tauroLogo} alt="Tauro Consultoria" className="h-9 w-9 object-contain" />
+              <h3 className="font-heading text-xl font-bold">
+                Tauro<span className="text-gold"> Consultoria</span>
+              </h3>
+            </div>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
               Impulsionando o crescimento sustentável de nossos clientes por meio de soluções inovadoras e eficazes em gestão.
             </p>
