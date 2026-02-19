@@ -14,8 +14,6 @@ const navLinks = [
   { name: "Sobre Nós", path: "/sobre" },
   { name: "Soluções", path: "#", dropdown: solutions },
   { name: "Cases de Sucesso", path: "/cases" },
-  { name: "Blog", path: "/blog" },
-  { name: "Contato", path: "/contato" },
 ];
 
 const Header = () => {
