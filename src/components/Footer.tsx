@@ -63,8 +63,8 @@ const Footer = () => {
           <div>
             <h4 className="font-heading text-sm font-bold mb-4 text-gold">Contato</h4>
             <div className="space-y-3">
-              <a href="mailto:contato@tauroconsultoria.com.br" className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-gold transition-colors">
-                <Mail size={16} /> contato@tauroconsultoria.com.br
+              <a href="mailto:tauro@grupotauro.com.br" className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-gold transition-colors">
+                <Mail size={16} /> tauro@grupotauro.com.br
               </a>
               <a href="tel:+5511981559196" className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-gold transition-colors">
                 <Phone size={16} /> (11) 98155-9196

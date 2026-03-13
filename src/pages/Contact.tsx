@@ -47,8 +47,8 @@ const Contact = () => {
             {/* Contact Info */}
             <div className="lg:col-span-2 space-y-6">
               <h2 className="font-heading text-xl font-bold text-primary mb-6">Nossos Canais</h2>
-              <a href="mailto:contato@tauroconsultoria.com.br" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-gold transition-colors">
-                <Mail size={18} className="text-gold" /> contato@tauroconsultoria.com.br
+              <a href="mailto:tauro@grupotauro.com.br" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-gold transition-colors">
+                <Mail size={18} className="text-gold" /> tauro@grupotauro.com.br
               </a>
               <a href="tel:+5511981559196" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-gold transition-colors">
                 <Phone size={18} className="text-gold" /> (11) 98155-9196
